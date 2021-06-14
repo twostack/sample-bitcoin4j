@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'org.twostack.sample'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation 'org.twostack:bitcoin4j:1.0.1-SNAPSHOT'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
